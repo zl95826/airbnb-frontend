@@ -1,17 +1,11 @@
-"use client";
 import React from "react";
+import ExtractToClient from "./ExtractToClient";
 //rafce react arrow function export component
 const ProductCard = () => {
   return (
     <div>
       ProductCard
-      <button
-        onClick={() => {
-          console.log("test");
-        }}
-      >
-        Button
-      </button>
+      <ExtractToClient />
     </div>
   );
 };
