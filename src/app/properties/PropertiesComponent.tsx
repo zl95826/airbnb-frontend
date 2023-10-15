@@ -16,7 +16,7 @@ type Repo = {
 //     return { props: properties };
 //   }
 // };
-// cannot use getServerSideProps in App routing methods
+// cannot use getServerSideProps in App routing method
 
 export default function Properties({ data }: { data: DataType[] }) {
   return (

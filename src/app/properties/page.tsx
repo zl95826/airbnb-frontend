@@ -1,4 +1,5 @@
 import { sanityClient } from "../../../sanity";
+import ProductCard from "../components/ProductCard";
 import Properties from "./PropertiesComponent";
 export interface DataType {
   id: number;
@@ -29,6 +30,17 @@ export default async function PagesHome() {
       <div className="z-10 max-w-5xl w-full items-center justify-between font-mono text-sm lg:flex">
         Hello World!
       </div>
+      <ProductCard />
+      {/* <button
+        onClick={() => {
+          console.log("test");
+        }}
+      >
+        Button
+      </button>  Add this you will get error.
+      Server components cannot have interactivity, 
+      so they cannot handle browser events.*/}
+
       <Properties data={data} />
     </main>
   );
