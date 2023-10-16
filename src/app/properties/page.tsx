@@ -1,6 +1,6 @@
 import { sanityClient } from "../../../sanity";
 import ProductCard from "../components/ProductCard";
-import Properties from "./PropertiesComponent";
+import Properties from "./Properties";
 export interface DataType {
   id: number;
   name: string;
