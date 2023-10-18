@@ -1,0 +1,16 @@
+/* In this Css module, we can define classes that are scoped to our ProductCard components. */
+.cardContainer {
+  /* in CSS modules we cannot use hyphens when naming classes,like card-container,
+  because this is not a valid name for a JavaScript property, obj.card-container doesn't work.
+  You should use bracket notation if your CSS classes contain hyphens,like
+  <p className={classes["paragraph-text"]}>Increase by 2</p>
+  You can combine styles:
+  const buttonClasses = classes.myBtn+ " " + classes.extra_classes;
+  */
+  padding: 1rem;
+  border: 1px solid #ccc;
+}
+.card-test {
+  width: 100%;
+  background: #4caf17;
+}
