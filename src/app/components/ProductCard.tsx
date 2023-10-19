@@ -5,6 +5,7 @@ import styles from "./ProductCard.module.css";
 const ProductCard = () => {
   return (
     <div className="p-4 m-5 bg-sky-400">
+      {/* use tailwind class in this component */}
       ProductCard
       <ExtractToClient />
     </div>

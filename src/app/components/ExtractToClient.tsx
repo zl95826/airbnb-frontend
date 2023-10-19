@@ -2,6 +2,7 @@
 import React from "react";
 import styles from "./ProductCard.module.css";
 const ExtractToClient = () => {
+  const name = styles.cardContainer + " " + styles["card-test"];
   return (
     <div className={styles["card-test"]}>
       <button
@@ -13,6 +14,7 @@ const ExtractToClient = () => {
       >
         ExtractToClient Button
       </button>
+      <p className={name}>I just want to test the style.</p>
     </div>
   );
 };
